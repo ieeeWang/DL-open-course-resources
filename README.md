@@ -22,9 +22,9 @@
 | No.   | Open course                                            |Tool       | Links           |
 | :----:| :----:                                              | :----:   | :----:          |
 | 1     | Machine Learning by Andrew Ng  | -  | [coursera](https://www.coursera.org/learn/machine-learning)|
-| 2     | Deep Learning Specialization by Andrew Ng  | tf |  [coursera](https://www.coursera.org/specializations/deep-learning), [网易](https://mooc.study.163.com/smartSpec/detail/1001319001.htm/)|
+| 2     | Deep Learning Specialization by Andrew Ng  | tf1.x, tf2.x |  [coursera](https://www.coursera.org/specializations/deep-learning), [网易](https://mooc.study.163.com/smartSpec/detail/1001319001.htm/)|
 | 3     | 3bule1brown | - |[YouTube](https://www.youtube.com/watch?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&v=aircAruvnKk&feature=youtu.be), [B站](https://space.bilibili.com/88461692/#/) |
-| 4     | Practical Deep Learning for Coders by Jeremy Howard  | PyTorch fastai  | [online](https://course.fast.ai/)|
+| 4     | Practical Deep Learning for Coders by Jeremy Howard  | PyTorch, fastai  | [online](https://course.fast.ai/)|
 
 
 
