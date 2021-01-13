@@ -1,15 +1,14 @@
-# DL-open-course-resources
-
 --------------------------------------------------------------------------------
 
-# Welcome to EEG Deep Learning Library
+# Welcome to Deep Learning open-course resources
 
-**EEG-DL** is a Deep Learning (DL) library written by [TensorFlow](https://www.tensorflow.org) for EEG Tasks (Signals) Classification. It provides the latest DL algorithms and keeps updated. 
+**This guide** is based on “my personal” favorite methods to learn Deep Learning. 
 
 <!-- [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/EEG-DL/community)
 [![Python 3](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.anaconda.com/)
 [![TensorFlow 1.13.1](https://img.shields.io/badge/TensorFlow-1.13.1-red.svg)](https://www.tensorflow.org/install)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SuperBruceJia/EEG-DL/blob/master/LICENSE) -->
+
 
 ## Table of Contents
 <ul>
@@ -27,3 +26,8 @@
 
 ## Documentation
 **The supported models** include
+
+| No.   | Model                                                  | Codes           |
+| :----:| :----:                                                 | :----:          |
+| 1     | Deep Neural Networks                                   | [DNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/DNN.py) |
+| 2     | Convolutional Neural Networks [[Paper]](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta) [[Tutorial]](https://github.com/SuperBruceJia/EEG-Motor-Imagery-Classification-CNNs-TensorFlow)| [CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/CNN.py) |
