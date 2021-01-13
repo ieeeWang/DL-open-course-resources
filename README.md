@@ -22,7 +22,8 @@
 | No.   | Open course                                                  | Links           |
 | :----:| :----:                                                 | :----:          |
 | 1     | Machine Learning       | [coursera](https://www.coursera.org/learn/machine-learning)|
-| 2     | 3bule1brown | [YouTube](https://www.youtube.com/watch?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&v=aircAruvnKk&feature=youtu.be) [b站](https://space.bilibili.com/88461692/#/) |
+| 2     | Deep Learning Specialization       | [coursera](https://www.coursera.org/specializations/deep-learning), [网易](https://mooc.study.163.com/smartSpec/detail/1001319001.htm/)|
+| 3     | 3bule1brown | [YouTube](https://www.youtube.com/watch?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&v=aircAruvnKk&feature=youtu.be), [B站](https://space.bilibili.com/88461692/#/) |
 
 
 ## Books
