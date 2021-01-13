@@ -12,8 +12,8 @@
 ## Table of Contents
 <ul>
 <li><a href="#Open-course">Open course</a></li>
-<li><a href="#Usage-Demo">Usage Demo</a></li>
-<li><a href="#Notice">Notice</a></li>
+<li><a href="#Books">Books</a></li>
+<li><a href="#GitHub-projects">GitHub rojects</a></li>
 </ul>
 
 ## Open course
@@ -23,3 +23,11 @@
 | :----:| :----:                                                 | :----:          |
 | 1     | Deep Neural Networks                                   | [DNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/DNN.py) |
 | 2     | Convolutional Neural Networks [[Paper]](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta) [[Tutorial]](https://github.com/SuperBruceJia/EEG-Motor-Imagery-Classification-CNNs-TensorFlow)| [CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/CNN.py) |
+
+
+## Books
+**The open books** include
+
+
+
+## GitHub rojects
