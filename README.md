@@ -13,7 +13,7 @@
 <ul>
 <li><a href="#Open-course">Open course</a></li>
 <li><a href="#Books">Books</a></li>
-<li><a href="#GitHub-projects">GitHub rojects</a></li>
+<li><a href="#GitHub-projects">GitHub projects</a></li>
 </ul>
 
 ## Open course
@@ -21,8 +21,8 @@
 
 | No.   | Open course                                                  | Links           |
 | :----:| :----:                                                 | :----:          |
-| 1     | Deep Neural Networks                                   | [DNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/DNN.py) |
-| 2     | Convolutional Neural Networks [[Paper]](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta) [[Tutorial]](https://github.com/SuperBruceJia/EEG-Motor-Imagery-Classification-CNNs-TensorFlow)| [CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/CNN.py) |
+| 1     | Machine Learning       | [coursera](https://www.coursera.org/learn/machine-learning)|
+| 2     | 3bule1brown | [YouTube](https://www.youtube.com/watch?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&v=aircAruvnKk&feature=youtu.be) [b站](https://space.bilibili.com/88461692/#/) |
 
 
 ## Books
@@ -30,4 +30,4 @@
 
 
 
-## GitHub rojects
+## GitHub projects
