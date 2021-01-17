@@ -13,7 +13,7 @@
 <ul>
 <li><a href="#Open-course">Open course</a></li>
 <li><a href="#Books">Books</a></li>
-<li><a href="#GitHub-projects">GitHub projects</a></li>
+<li><a href="#GitHub-projects">GitHub tutorial projects</a></li>
 </ul>
 
 ## Open course
@@ -27,7 +27,7 @@
 | 4     | Practical Deep Learning for Coders by Jeremy Howard  | PyTorch, fastai  | [website](https://course.fast.ai/)|
 | 5     | Convolutional Neural Networks for Visual Recognition by F. Li (Stanford)  |  -  | [website](http://cs231n.stanford.edu/)|
 | 6     | Natural Language Processing with Deep Learning by C. Manning (Stanford)  |  -  | [website](http://web.stanford.edu/class/cs224n/)|
-| 7     | Introduction to Deep Learning by MIT  |  -  | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
+| 7     | Introduction to Deep Learning by MIT  |  tf2.x  | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
 
 
 
@@ -42,8 +42,8 @@
 
 
 
-## GitHub projects
+## GitHub tutorial projects
 
-| No.   | tutorial project                                  | Links           |
+| No.   | project                                  | Links           |
 | :----:| :----:                                   | :----:          |
 | 1   | A Whirlwind Tour of Python    | [online](https://github.com/jakevdp/WhirlwindTourOfPython)|
