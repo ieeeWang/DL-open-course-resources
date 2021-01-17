@@ -13,7 +13,7 @@
 <ul>
 <li><a href="#Open-course">Open course</a></li>
 <li><a href="#Books">Books</a></li>
-<li><a href="#GitHub-projects">GitHub tutorial projects</a></li>
+<li><a href="#GitHub tutorial projects">GitHub tutorial projects</a></li>
 </ul>
 
 ## Open course
@@ -42,7 +42,7 @@
 
 
 
-## GitHub projects
+## GitHub tutorial projects
 
 | No.   | project                                  | Links           |
 | :----:| :----:                                   | :----:          |
