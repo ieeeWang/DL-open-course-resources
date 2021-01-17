@@ -42,7 +42,7 @@
 
 
 
-## GitHub tutorial projects
+## GitHub projects
 
 | No.   | project                                  | Links           |
 | :----:| :----:                                   | :----:          |
