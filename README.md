@@ -26,7 +26,8 @@
 | 3     | 3bule1brown | - |[YouTube](https://www.youtube.com/watch?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&v=aircAruvnKk&feature=youtu.be), [B站](https://space.bilibili.com/88461692/#/) |
 | 4     | Practical Deep Learning for Coders by Jeremy Howard  | PyTorch, fastai  | [website](https://course.fast.ai/)|
 | 5     | Convolutional Neural Networks for Visual Recognition by F. Li (Stanford)  |  -  | [website](http://cs231n.stanford.edu/)|
-| 5     | Natural Language Processing with Deep Learning by C. Manning (Stanford)  |  -  | [website](http://web.stanford.edu/class/cs224n/)|
+| 6     | Natural Language Processing with Deep Learning by C. Manning (Stanford)  |  -  | [website](http://web.stanford.edu/class/cs224n/)|
+| 7     | Introduction to Deep Learning by MIT  |  -  | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
 
 
 
@@ -45,4 +46,4 @@
 
 | No.   | tutorial project                                  | Links           |
 | :----:| :----:                                   | :----:          |
-| 2    | A Whirlwind Tour of Python    | [online](https://github.com/jakevdp/WhirlwindTourOfPython)|
+| 1   | A Whirlwind Tour of Python    | [online](https://github.com/jakevdp/WhirlwindTourOfPython)|
