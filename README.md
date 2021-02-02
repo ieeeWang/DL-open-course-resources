@@ -28,7 +28,7 @@
 | 5     | Convolutional Neural Networks for Visual Recognition by F. Li (Stanford)  |  -  | [website](http://cs231n.stanford.edu/)|
 | 6     | Natural Language Processing with Deep Learning by C. Manning (Stanford)  |  PyTorch  | [website](http://web.stanford.edu/class/cs224n/), [YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)|
 | 7     | Introduction to Deep Learning by MIT  |  tf2.x  | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
-
+| 8     | Deep Learning by Yann LeCun  | PyTorch  | [website](https://atcold.github.io/pytorch-Deep-Learning/), [YouTube](https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq)|
 
 
 ## Books
