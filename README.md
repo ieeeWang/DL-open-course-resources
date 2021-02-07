@@ -23,7 +23,7 @@
 | 4     | Practical Deep Learning for Coders by Jeremy Howard  | PyTorch, fastai  | [website](https://course.fast.ai/)|
 | 5     | Convolutional Neural Networks for Visual Recognition by F. Li (Stanford)  |  -  | [website](http://cs231n.stanford.edu/)|
 | 6     | Natural Language Processing with Deep Learning by C. Manning (Stanford)  |  PyTorch  | [website](http://web.stanford.edu/class/cs224n/), [YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)|
-| 7     | Introduction to Deep Learning by MIT  |  tf2.x  | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
+| 7     | Introduction to Deep Learning by MIT  |  tf2.x, Colab | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
 | 8     | Deep Learning by Yann LeCun  | PyTorch  | [website](https://atcold.github.io/pytorch-Deep-Learning/), [YouTube](https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq)|
 
 
@@ -53,3 +53,5 @@ More (100+) free AI books [online](https://www.theinsaneapp.com/2020/12/download
 | 2   | Machine Learning with TensorFlow    | [online](https://github.com/BinRoot/TensorFlow-Book)|
 | 3   | 30天吃掉那只TensorFlow2    | [online](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)|
 | 4   | 20天吃掉那只Pytorch    | [online](https://github.com/lyhue1991/eat_pytorch_in_20_days)|
+| 5   | [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)    | bayesian, Probabilistic Programming|
+
