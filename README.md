@@ -47,11 +47,11 @@ More (100+) free AI books [online](https://www.theinsaneapp.com/2020/12/download
 
 ## GitHub tutorial projects
 
-| No.   | project                                  | Links           |
+| No.   | project                                  | Remark           |
 | :----:| :----:                                   | :----:          |
-| 1   | A Whirlwind Tour of Python    | [online](https://github.com/jakevdp/WhirlwindTourOfPython)|
-| 2   | Machine Learning with TensorFlow    | [online](https://github.com/BinRoot/TensorFlow-Book)|
-| 3   | 30天吃掉那只TensorFlow2    | [online](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)|
-| 4   | 20天吃掉那只Pytorch    | [online](https://github.com/lyhue1991/eat_pytorch_in_20_days)|
+| 1   | [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)    | python beginner |
+| 2   | [Machine Learning with TensorFlow](https://github.com/BinRoot/TensorFlow-Book)    | good |
+| 3   | [30天吃掉那只TensorFlow2](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)   | great|
+| 4   | [20天吃掉那只Pytorch](https://github.com/lyhue1991/eat_pytorch_in_20_days)    | great|
 | 5   | [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)    | bayesian, Probabilistic Programming|
 
