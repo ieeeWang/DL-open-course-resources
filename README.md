@@ -40,7 +40,7 @@
 |2    |  Deep Learning by Ian Goodfellow    | [online](https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-bookmarked-pdf/deeplearningbook.pdf/), [中文](https://github.com/exacity/deeplearningbook-chinese)|
 | 3   | Chriss Olah’s blogs    | [online](http://colah.github.io/)|
 
-More free AI books online:
+More free AI books [online](https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html):
 <div>
     <div style="text-align:center">
     <img width=99%device-width src="doc/Free_Books.jpg">
