@@ -8,8 +8,8 @@
 ## Table of Contents
 <ul>
 <li><a href="#Open-course">Open course</a></li>
-<li><a href="#Books">Books</a></li>
 <li><a href="#GitHub-tutorial-projects">GitHub tutorial projects</a></li>
+<li><a href="#Books">Books</a></li>
 </ul>
 
 ## Open course
@@ -27,23 +27,6 @@
 | 8     | Deep Learning by Yann LeCun  | PyTorch  | [website](https://atcold.github.io/pytorch-Deep-Learning/), [YouTube](https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq)|
 
 
-## Books
-**The online books and blogs** include
-
-| No.   | books and blogs                                  | Links           |
-| :----:| :----:                                                  | :----:          |
-| 1     | Neural Networks and Deep Learning by M. Nielsen   | [online](http://neuralnetworksanddeeplearning.com/)|
-|2    |  Deep Learning by Ian Goodfellow    | [online](https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-bookmarked-pdf/deeplearningbook.pdf/), [中文](https://github.com/exacity/deeplearningbook-chinese)|
-| 3   | Chriss Olah’s blogs    | [online](http://colah.github.io/)|
-| 4   | Deep Learning with PyTorch (official guide book)  | [PDF](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)|
-
-
-More (100+) free AI books [online](https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html):
-<div>
-    <div style="text-align:center">
-    <img width=99%device-width src="doc/Free_Books.jpg">
-</div>
-
 
 ## GitHub tutorial projects
 
@@ -54,4 +37,22 @@ More (100+) free AI books [online](https://www.theinsaneapp.com/2020/12/download
 | 3   | [30天吃掉那只TensorFlow2](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)   | great|
 | 4   | [20天吃掉那只Pytorch](https://github.com/lyhue1991/eat_pytorch_in_20_days)    | great|
 | 5   | [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)    | bayesian, Probabilistic Programming|
+
+
+## Books
+The online **books and blogs**:
+
+| No.   | books and blogs                                  | Links           |
+| :----:| :----:                                                  | :----:          |
+| 1     | Neural Networks and Deep Learning by M. Nielsen   | [online](http://neuralnetworksanddeeplearning.com/)|
+|2    |  Deep Learning by Ian Goodfellow    | [online](https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-bookmarked-pdf/deeplearningbook.pdf/), [中文](https://github.com/exacity/deeplearningbook-chinese)|
+| 3   | Chriss Olah’s blogs    | [online](http://colah.github.io/)|
+| 4   | Deep Learning with PyTorch (official guide book)  | [PDF](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)|
+
+
+More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html):
+<div>
+    <div style="text-align:center">
+    <img width=99%device-width src="doc/Free_Books.jpg">
+</div>
 
