@@ -1,12 +1,8 @@
 --------------------------------------------------------------------------------
 
-# Welcome to ML DL open-course resources
+# useful ML/DL open-course resources
 
-**This guide** is based on “my personal” favorite methods to learn Deep Learning. 
-
-<!-- [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/EEG-DL/community)
-[![Python 3](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.anaconda.com/)
- -->
+**my personal path** to learn Deep Learning. 
 
 
 ## Table of Contents
@@ -39,8 +35,10 @@
 | 1     | Neural Networks and Deep Learning by M. Nielsen   | [online](http://neuralnetworksanddeeplearning.com/)|
 |2    |  Deep Learning by Ian Goodfellow    | [online](https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-bookmarked-pdf/deeplearningbook.pdf/), [中文](https://github.com/exacity/deeplearningbook-chinese)|
 | 3   | Chriss Olah’s blogs    | [online](http://colah.github.io/)|
+| 4   | Deep Learning with PyTorch (official guide book)  | [PDF](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)|
 
-More free AI books [online](https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html):
+
+More (100+) free AI books [online](https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html):
 <div>
     <div style="text-align:center">
     <img width=99%device-width src="doc/Free_Books.jpg">
@@ -52,3 +50,6 @@ More free AI books [online](https://www.theinsaneapp.com/2020/12/download-free-m
 | No.   | project                                  | Links           |
 | :----:| :----:                                   | :----:          |
 | 1   | A Whirlwind Tour of Python    | [online](https://github.com/jakevdp/WhirlwindTourOfPython)|
+| 2   | Machine Learning with TensorFlow    | [online](https://github.com/BinRoot/TensorFlow-Book)|
+| 3   | 30天吃掉那只TensorFlow2    | [online](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)|
+| 4   | 20天吃掉那只Pytorch    | [online](https://github.com/lyhue1991/eat_pytorch_in_20_days)|
