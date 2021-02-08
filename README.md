@@ -1,14 +1,15 @@
 --------------------------------------------------------------------------------
 
-# useful ML/DL open-course resources
+# Useful ML/DL open-course resources
 
-**my personal path** to learn Deep Learning. 
+**My personal path** to learn Deep Learning. 
 
 
 ## Table of Contents
 <ul>
 <li><a href="#Open-course">Open course</a></li>
 <li><a href="#GitHub-tutorial-projects">GitHub tutorial projects</a></li>
+<li><a href="#Blogs-and-manuals">Blogs and manuals</a></li>
 <li><a href="#Books">Books</a></li>
 </ul>
 
@@ -30,13 +31,20 @@
 
 ## GitHub tutorial projects
 
-| No.   | project                                  | Remark           |
+| No.   | Project                                  | Remark           |
 | :----:| :----:                                   | :----:          |
 | 1   | [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)    | python beginner |
 | 2   | [Machine Learning with TensorFlow](https://github.com/BinRoot/TensorFlow-Book)    | good |
 | 3   | [30天吃掉那只TensorFlow2](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)   | great|
 | 4   | [20天吃掉那只Pytorch](https://github.com/lyhue1991/eat_pytorch_in_20_days)    | great|
 | 5   | [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)    | bayesian, Probabilistic Programming|
+
+## Blogs and manuals
+| 1   | NumPy for MATLAB users   | [online](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html)|
+| 2   | Python Numpy Tutorial     | [online](https://cs231n.github.io/python-numpy-tutorial/#arrays)|
+| 3   | Jupyter Notebook Keyboard Shortcuts    | [online](https://cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/)|
+| 4   | 最简洁的python blog    | [online](https://www.liujiangblog.com/course/python/3)|
+| 5   | Chriss Olah’s blogs    | [online](http://colah.github.io/)|
 
 
 ## Books
@@ -46,8 +54,7 @@ The online **books and blogs**:
 | :----:| :----:                                                  | :----:          |
 | 1     | Neural Networks and Deep Learning by M. Nielsen   | [online](http://neuralnetworksanddeeplearning.com/)|
 |2    |  Deep Learning by Ian Goodfellow    | [online](https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-bookmarked-pdf/deeplearningbook.pdf/), [中文](https://github.com/exacity/deeplearningbook-chinese)|
-| 3   | Chriss Olah’s blogs    | [online](http://colah.github.io/)|
-| 4   | Deep Learning with PyTorch (official guide book)  | [PDF](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)|
+| 3   | Deep Learning with PyTorch (official guide book)  | [PDF](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)|
 
 
 More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/download-free-machine-learning-books.html):
