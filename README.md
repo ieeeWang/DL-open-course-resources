@@ -40,7 +40,8 @@
 | 5   | [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)    | bayesian, Probabilistic Programming|
 
 ## Blogs and manuals
-| No.   | books and blogs                                  | Links           |
+| No.   | books and blogs                          | Links           |
+| :----:| :----:                                   | :----:          |
 | 1   | NumPy for MATLAB users   | [online](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html)|
 | 2   | Python Numpy Tutorial     | [online](https://cs231n.github.io/python-numpy-tutorial/#arrays)|
 | 3   | Jupyter Notebook Keyboard Shortcuts    | [online](https://cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/)|
