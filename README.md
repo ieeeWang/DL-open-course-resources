@@ -43,7 +43,7 @@
 | :----:| :----:                                   | :----:          |
 | 1   | [NumPy for MATLAB users](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html)   | 10 mins |
 | 2   | [Python Numpy Tutorial](https://cs231n.github.io/python-numpy-tutorial/#arrays)    | 10 mins|
-| 3   | [最简洁的python blog](https://www.liujiangblog.com/course/python/3) | 中文指南|
+| 3   | [刘江的python blog](https://www.liujiangblog.com/course/python/3) | 简洁中文指南|
 | 4   | [Chriss Olah’s blogs](http://colah.github.io/)   | nice tutorials for AI|
 | 5   | [Jupyter Notebook Keyboard Shortcuts](https://cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/)   |cheet sheet|
 | 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)   |cheet sheet, [more](https://try.github.io/)|
