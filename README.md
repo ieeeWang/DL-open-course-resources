@@ -21,7 +21,7 @@
 | 1     | Machine Learning by Andrew Ng  | -  | [coursera](https://www.coursera.org/learn/machine-learning)|
 | 2     | Introduction to Deep Learning by MIT  |  tf2.x, Colab | [website](http://introtodeeplearning.com/), [YouTube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
 | 3     | Deep Learning Specialization by Andrew Ng  | tf1.x, tf2.x |  [coursera](https://www.coursera.org/specializations/deep-learning), [网易](https://mooc.study.163.com/smartSpec/detail/1001319001.htm/)|
-| 4     | Convolutional Neural Networks for Visual Recognition by F. Li (Stanford)  |  -  | [website](http://cs231n.stanford.edu/)|
+| 4     | Convolutional Neural Networks for Visual Recognition by F. Li (Stanford)  | PyTorch, tf2.x | [website](http://cs231n.stanford.edu/)|
 | 5     | Natural Language Processing with Deep Learning by C. Manning (Stanford)  |  PyTorch  | [website](http://web.stanford.edu/class/cs224n/), [YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)|
 | 6     | Deep Learning by Yann LeCun (NYU)  | PyTorch  | [website](https://atcold.github.io/pytorch-Deep-Learning/), [YouTube](https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq)|
 | 7     | Practical Deep Learning for Coders by Jeremy Howard  | PyTorch, fastai  | [website](https://course.fast.ai/)|
@@ -46,7 +46,7 @@
 | 3   | [刘江的python blog](https://www.liujiangblog.com/course/python/3) | 简洁中文指南|
 | 4   | [Chriss Olah’s blogs](http://colah.github.io/)   | nice tutorials for AI|
 | 5   | [Jupyter Notebook Keyboard Shortcuts](https://cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/)   |cheet sheet|
-| 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)   |cheet sheet, [more](https://try.github.io/)|
+| 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)，[more](https://try.github.io/)  |cheet sheet|
 
 
 ## Books
