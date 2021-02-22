@@ -46,7 +46,7 @@
 | 3   | [刘江的python blog](https://www.liujiangblog.com/course/python/3) | 简洁中文指南|
 | 4   | [Chriss Olah’s blogs](http://colah.github.io/)   | nice tutorials for AI|
 | 5   | [Jupyter Notebook Keyboard Shortcuts](https://cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/)   |cheet sheet|
-| 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)，[more](https://try.github.io/)  |cheet sheet|
+| 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)，[Resources to learn Git](https://try.github.io/)  |cheet sheet|
 
 
 ## Books
