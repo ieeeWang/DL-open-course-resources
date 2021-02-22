@@ -49,7 +49,7 @@
 | 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)，[Resources to learn Git](https://try.github.io/)  |cheet sheet|
 | 7   | [Using conda](https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index)，[official guide](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)  |cheet sheet|
 
-**Can't execute conda activate from bash (windows + terminal of VScode)**
+**Can't execute 'conda activate' from bash (windows + terminal of VScode)**
 ```
 eval "$(conda shell.bash hook)"
 conda activate my_env
