@@ -73,7 +73,7 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 
 ## Common issues
 
-**1. create a new env in anaconda (win10)**  
+**1. Create new env in anaconda (win10)**  
 by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e # check current env
@@ -127,7 +127,7 @@ print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GP
 conda create --name my_env
 conda create --name my_env anaconda
 ```
-**4. Check GPU status**   
+**4. Check GPU status (windows)**   
 为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
