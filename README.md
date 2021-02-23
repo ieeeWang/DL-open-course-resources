@@ -11,6 +11,7 @@
 <li><a href="#GitHub-tutorial-projects">GitHub tutorial projects</a></li>
 <li><a href="#Blogs-and-manuals">Blogs and manuals</a></li>
 <li><a href="#Books">Books</a></li>
+<li><a href="#Common-issues">Common issues</a></li>
 </ul>
 
 ## Open course
@@ -49,11 +50,7 @@
 | 6   | [Using git](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)，[Resources to learn Git](https://try.github.io/)  |cheet sheet|
 | 7   | [Using conda](https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index)，[official guide](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)  |cheet sheet|
 
-**Can't execute 'conda activate' from bash (windows + terminal of VScode)**
-```
-eval "$(conda shell.bash hook)"
-conda activate my_env
-``` 
+
 
 
 ## Books
@@ -72,3 +69,33 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
     <img width=99%device-width src="doc/Free_Books.jpg">
 </div>
 
+
+
+## Common issues
+**Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
+```
+eval "$(conda shell.bash hook)"
+conda activate my_env
+``` 
+
+**create a new env in anaconda (win10)**
+use following commands in 'anaconda prompt' or 'cmd' or 'terminal of VS code':
+```
+conda info -e
+conda create--name my_env
+conda activate my_env # if not work in VS code, see the issue above
+conda install package_name
+conda install pip # must do this before using pip! see reason below！
+pip install package_name # pip may support more packages than conda
+``` 
+
+不像conda，pip不知道环境，我们首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
+在当前环境下，用下面bash命令查看将要用的pip 为哪个环境：
+```
+which -a pip 
+```
+安装特定版本的包　conda用“=”，pip用“==”:
+```
+conda install numpy=1.93
+pip  install numpy==1.93
+```
