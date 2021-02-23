@@ -86,7 +86,7 @@ pip install package_name # pip may support more packages than conda
 安装特定版本的包　conda用“=”，pip用“==”:
 ```
 conda install numpy=1.93
-pip  install numpy==1.93
+pip install numpy==1.93
 ```
 
 不像conda，**pip不知道当前环境**，我们首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
@@ -94,7 +94,7 @@ pip  install numpy==1.93
 ```
 which -a pip 
 ```
-做一个小实验，确保pip把包安装在本env下：
+在新建立的env下，做一个小实验，确保pip把一个（不太常用的）包（folium）only安装在本env中（而不是base环境中）：
 ```
 pip install folium # package visualizing geospatial data
 conda list
@@ -102,7 +102,7 @@ conda deactivate
 conda info -e 
 conda list
 ```
-pip安装的包，conda list结果中的build项目为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则pip是base环境下的pip.
+conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中（may conflict）.
 
 
 **Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
