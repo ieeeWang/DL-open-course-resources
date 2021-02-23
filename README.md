@@ -89,7 +89,7 @@ conda install numpy=1.93
 pip install numpy==1.93
 ```
 
-**Note: pip不知道当前环境**，我们首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
+**Note: pip不一定作用在当前环境**. 首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
 在当前环境下，用下面bash命令查看将要用的pip 为哪个环境：
 ```
 which -a pip 
@@ -102,7 +102,7 @@ conda deactivate
 conda info -e 
 conda list
 ```
-conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中（may conflict）.
+conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中（may conflict.
 
 
 **Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
