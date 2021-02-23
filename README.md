@@ -102,7 +102,7 @@ conda deactivate
 conda info -e 
 conda list
 ```
-conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中（may conflict.
+conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中(may conflict).
 
 
 **Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
