@@ -74,7 +74,7 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 ## Common issues
 
 **create a new env in anaconda (win10)**
-use following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
+by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e # check current env
 conda create --name my_env
@@ -83,17 +83,27 @@ conda install package_name
 conda install pip # Must do this before using pip! see reason below！
 pip install package_name # pip may support more packages than conda
 ``` 
+安装特定版本的包　conda用“=”，pip用“==”:
+```
+conda install numpy=1.93
+pip  install numpy==1.93
+```
 
 不像conda，pip不知道环境，我们首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
 在当前环境下，用下面bash命令查看将要用的pip 为哪个环境：
 ```
 which -a pip 
 ```
-安装特定版本的包　conda用“=”，pip用“==”:
+做一个小实验，确保pip把包安装在本env下：
 ```
-conda install numpy=1.93
-pip  install numpy==1.93
+pip install folium # package visualizing geospatial data
+conda list
+conda deactivate
+conda info -e 
+conda list
 ```
+pip安装的包，conda list结果中的build项目为pypi. 退出env后回到base环境，conda list中应该不会出现folium. 否则pip是base环境下的pip.
+
 
 **Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
 ```
