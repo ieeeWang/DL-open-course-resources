@@ -73,7 +73,7 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 
 ## Common issues
 
-**create a new env in anaconda (win10)**  
+**1. create a new env in anaconda (win10)**  
 by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e # check current env
@@ -105,13 +105,13 @@ conda list
 conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中(may conflict).
 
 
-**Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
+**2. Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
 ```
 eval "$(conda shell.bash hook)"
 conda activate my_env
 ``` 
 
-**Create an env for tf2.2-GPU (win10)**  
+**3. Create an env for tf2.2-GPU (win10)**  
 tf 2.2 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6. More version infor at [here](https://www.tensorflow.org/install/source#tested_build_configurations).  tf2.3 and higher do not work with my CUDA. Somehow only py3.7 works well with tf2.2-GPU. 
 ```
 conda create -n py37_tf2.2 python=3.7 anaconda # 'anaconda' enables a full copy from the base env
@@ -127,7 +127,7 @@ print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GP
 conda create --name my_env
 conda create --name my_env anaconda
 ```
-**Check GPU status**   
+**4. Check GPU status**   
 为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
