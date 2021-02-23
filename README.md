@@ -127,8 +127,8 @@ print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GP
 conda create --name my_env
 conda create --name my_env anaconda
 ```
-**check GPU** 
-为了方便使用nvidia-smi.exe,我们将路径C:\Program Files\NVIDIA Corporation\NVSMI加入系统环境变量。打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
+**Check GPU status**   
+为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
 ```
