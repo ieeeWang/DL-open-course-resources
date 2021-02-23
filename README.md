@@ -79,13 +79,14 @@ conda activate my_env
 ``` 
 
 **create a new env in anaconda (win10)**
-use following commands in 'anaconda prompt' or 'cmd' or 'terminal of VS code':
+
+use following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e
 conda create--name my_env
-conda activate my_env # if not work in VS code, see the issue above
+conda activate my_env # if fail in VS code terminal (bash), see above issue 
 conda install package_name
-conda install pip # must do this before using pip! see reason below！
+conda install pip # Must do this before using pip! see reason below！
 pip install package_name # pip may support more packages than conda
 ``` 
 
