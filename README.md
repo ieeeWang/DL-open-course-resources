@@ -111,10 +111,10 @@ eval "$(conda shell.bash hook)"
 conda activate my_env
 ``` 
 
-**Create an env for tf2.2-gpu (win10)**  
-tf 2.2 (2.3 and higher do not work with my CUDA) requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6, more version infor at [here](https://www.tensorflow.org/install/source#tested_build_configurations). Somehow only py3.7 work with tf2.2 gpu.
+**Create an env for tf2.2-GPU (win10)**  
+tf 2.2 (2.3 and higher do not work with my CUDA) requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6, more version infor at [here](https://www.tensorflow.org/install/source#tested_build_configurations). Somehow only py3.7 works well with tf2.2-GPU.
 ```
-conda create -n py37_tf2.2 python=3.7 anaconda # keyword 'anaconda'  enables a full copy from the base env
+conda create -n py37_tf2.2 python=3.7 anaconda # 'anaconda' enables a full copy from the base env
 conda activate py37_tf2.2
 pip install tensorflow-gpu==2.2
 ```
