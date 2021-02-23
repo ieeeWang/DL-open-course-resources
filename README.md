@@ -112,15 +112,23 @@ conda activate my_env
 ``` 
 
 **Create an env for tf2.2-GPU (win10)**  
-tf 2.2 (2.3 and higher do not work with my CUDA) requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6, more version infor at [here](https://www.tensorflow.org/install/source#tested_build_configurations). Somehow only py3.7 works well with tf2.2-GPU.
+tf 2.2 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6. More version infor at [here](https://www.tensorflow.org/install/source#tested_build_configurations).  tf2.3 and higher do not work with my CUDA. Somehow only py3.7 works well with tf2.2-GPU. 
 ```
 conda create -n py37_tf2.2 python=3.7 anaconda # 'anaconda' enables a full copy from the base env
 conda activate py37_tf2.2
 pip install tensorflow-gpu==2.2
+python
+import tensorflow as tf
+print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GPU')))
 ```
 
 以下命令区别是：前者建立一个空的环境，后者把base环境完整复制过来，里面已经包括了常用的包如pip，numpy
 ```
 conda create --name my_env
 conda create --name my_env anaconda
+```
+**check GPU** 
+为了方便使用nvidia-smi.exe,我们将路径C:\Program Files\NVIDIA Corporation\NVSMI加入系统环境变量。打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
+```
+nvidia-smi
 ```
