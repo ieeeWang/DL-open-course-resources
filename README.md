@@ -73,7 +73,7 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 
 ## Common issues
 
-**create a new env in anaconda (win10)**
+**create a new env in anaconda (win10)**  
 by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e # check current env
@@ -111,12 +111,12 @@ eval "$(conda shell.bash hook)"
 conda activate my_env
 ``` 
 
-**create an env for tf2.3-gpu (win10)**  
-tf 2.3 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6, more version infor [hrere](https://www.tensorflow.org/install/source#tested_build_configurations).
+**Create an env for tf2.3-gpu (win10)**  
+tf 2.2 (2.3 and higher do not work with my CUDA) requres python 3.5-3.8 (somehow only py3.7 work with tf2.2 gpu), CUDA 10.1, cuDNN 7.6, more version infor at [here](https://www.tensorflow.org/install/source#tested_build_configurations).
 ```
-conda create -n py38_tf2.3 python=3.8 anaconda # keyword 'anaconda'  enables a full copy from the base env
-conda activate py38_tf2.3
-pip install tensorflow-gpu==2.3
+conda create -n py37_tf2.2 python=3.7 anaconda # keyword 'anaconda'  enables a full copy from the base env
+conda activate py37_tf2.2
+pip install tensorflow-gpu==2.2
 ```
 
 以下命令区别是：前者建立一个空的环境，后者把base环境完整复制过来，里面已经包括了常用的包如pip，numpy
