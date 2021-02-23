@@ -72,19 +72,13 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 
 
 ## Common issues
-**Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
-```
-eval "$(conda shell.bash hook)"
-conda activate my_env
-``` 
 
 **create a new env in anaconda (win10)**
-
 use following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
-conda info -e
-conda create--name my_env
-conda activate my_env # if fail in VS code terminal (bash), see above issue 
+conda info -e # check current env
+conda create --name my_env
+conda activate my_env # if fail in VS code terminal (bash), see issue below 
 conda install package_name
 conda install pip # Must do this before using pip! see reason below！
 pip install package_name # pip may support more packages than conda
@@ -100,3 +94,9 @@ which -a pip
 conda install numpy=1.93
 pip  install numpy==1.93
 ```
+
+**Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
+```
+eval "$(conda shell.bash hook)"
+conda activate my_env
+``` 
