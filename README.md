@@ -77,7 +77,7 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e # check current env
-conda create --name my_env
+conda create --name my_env # an empty env named my_env 
 conda activate my_env # if fail in VS code terminal (bash), see issue below 
 conda install package_name
 conda install pip # Must do this before using pip! see reason below！
@@ -111,10 +111,10 @@ eval "$(conda shell.bash hook)"
 conda activate my_env
 ``` 
 
-**create a new env for tf2.3-gpu (win10)**
+**create an env for tf2.3-gpu (win10)**  
 tf 2.3 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6, more version infor [hrere](https://www.tensorflow.org/install/source#tested_build_configurations).
 ```
-conda create -n py38_tf2.3 python=3.8 anaconda # use 'anaconda' to make a full copy of base env
+conda create -n py38_tf2.3 python=3.8 anaconda # keyword 'anaconda'  enables a full copy from the base env
 conda activate py38_tf2.3
 pip install tensorflow-gpu==2.3
 ```
