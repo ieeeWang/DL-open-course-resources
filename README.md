@@ -89,7 +89,7 @@ conda install numpy=1.93
 pip install numpy==1.93
 ```
 
-不像conda，**pip不知道当前环境**，我们首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
+**Note: pip不知道当前环境**，我们首先要确保我们用的是本环境的pip，这样pip install时，包才会创建到本环境中，不然包会创建到base环境，供各个不同的其他conda环境共享，此时可能会产生版本冲突问题!
 在当前环境下，用下面bash命令查看将要用的pip 为哪个环境：
 ```
 which -a pip 
@@ -110,3 +110,17 @@ conda list结果中，pip安装的包的build标注为pypi. 退出新env后回�
 eval "$(conda shell.bash hook)"
 conda activate my_env
 ``` 
+
+**create a new env for tf2.3-gpu (win10)**
+tf 2.3 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6, more version infor [hrere](https://www.tensorflow.org/install/source#tested_build_configurations).
+```
+conda create -n py38_tf2.3 python=3.8 anaconda # use 'anaconda' to make a full copy of base env
+conda activate py38_tf2.3
+pip install tensorflow-gpu==2.3
+```
+
+以下命令区别是：前者建立一个空的环境，后者把base环境完整复制过来，里面已经包括了常用的包如pip，numpy
+```
+conda create --name my_env
+conda create --name my_env anaconda
+```
