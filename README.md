@@ -96,11 +96,13 @@ which -a pip
 ```
 在新建立的env下，做一个小实验，确保pip把一个（不太常用的）包（folium）only安装在本env中（而不是base环境中）：
 ```
+conda create --name my_env python=3.7
 pip install folium # package visualizing geospatial data
 conda list
 conda deactivate
 conda info -e 
 conda list
+conda remove -n my_env --all # Delete an environment
 ```
 conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中(may conflict).
 
