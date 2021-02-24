@@ -112,7 +112,7 @@ conda activate my_env
 ``` 
 
 **3. Create an env for tf2.2-GPU (win10)**  
-tf 2.2 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6. More [version infor](https://www.tensorflow.org/install/source#tested_build_configurations).  tf2.3 and higher do not work with my CUDA. Somehow only py3.7 (not higher) works well with tf2.2-GPU. 
+tf 2.2 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6. More [CUDA version infor](https://www.tensorflow.org/install/source#tested_build_configurations).  tf2.3 and higher do not work with my CUDA. Somehow only py3.7 (not higher) works well with tf2.2-GPU. 
 ```
 conda create -n py37_tf2.2 python=3.7 anaconda # 'anaconda' enables a full copy from the base env
 conda activate py37_tf2.2
@@ -122,7 +122,7 @@ import tensorflow as tf
 print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GPU')))
 ```
 
-以下命令区别是：(1)建立一个完全空的环境（注意：里面没有安装pip，使用pip会安装到base环境！）; (2)把base环境完整复制过来，包含了常用的包如pip，numpy和已经在anaconda启动页安装的Jupyter notebook等; (3) 建立一个非空环境，包含了对应的python版本和pip。建议使用（3）！
+以下命令区别是：(1)建立一个完全空的环境（注意：里面没有安装pip，使用pip会安装到base环境！）; (2)把base环境完整复制过来，包含了常用的包如pip，numpy和已经在anaconda启动页安装的Jupyter notebook等; (3) 建立一个非空环境，包含了对应的python版本和pip。建议使用(2) or（3）！
 ```
 conda create --name my_env
 conda create --name my_env anaconda
