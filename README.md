@@ -94,7 +94,7 @@ pip install numpy==1.93
 ```
 which -a pip 
 ```
-在新建立的env下，做一个小实验，确保pip把一个（不太常用的）包（folium）only安装在本env中（而不是base环境中）：
+做一个小实验: 在新建立的env下，确保pip把一个（不太常用的）包（folium）only安装在本env中（而不是base环境中）. 1st conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，2nd conda list中不会出现folium. 否则，是误用了base环境下的pip，所以包被安装到base环境中(conflict!).
 ```
 conda create --name my_env python=3.7
 pip install folium # package visualizing geospatial data
@@ -104,7 +104,7 @@ conda info -e
 conda list
 conda remove -n my_env --all # Delete an environment
 ```
-conda list结果中，pip安装的包的build标注为pypi. 退出新env后回到base环境，conda list中应该不会出现folium. 否则，可能是误用了base环境下的pip，所以包被安装到base环境中(may conflict).
+
 
 
 **2. Can't execute 'conda activate' from bash (win10 + terminal of VS code)**
@@ -130,7 +130,18 @@ conda create --name my_env
 conda create --name my_env anaconda
 conda create --name my_env python=3.7
 ```
-**4. Check GPU status (windows)**   
+
+**4. Create an env for PyTorch-GPU (win10)**  
+安装GPU版本，对应CUDA 10.1. The 2nd command is generated from [PyTorch page](https://pytorch.org/get-started/locally/)  
+```
+conda create --name py38_torch python=3.8 anaconda
+conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
+python
+import torch
+torch.cuda.is_available()
+```
+
+**5. Check GPU status (windows)**   
 为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
