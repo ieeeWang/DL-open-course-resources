@@ -124,11 +124,14 @@ import tensorflow as tf
 print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GPU')))
 ```
 
-以下命令区别是：(1)建立一个完全空的环境（注意：里面没有安装pip，使用pip会安装到base环境！）; (2)把base环境完整复制过来，包含了常用的包如pip，numpy和已经在anaconda启动页安装的Jupyter notebook等; (3) 建立一个非空环境，包含了对应的python版本和pip。建议使用(2) or（3）！
+以下命令区别是：(1)建立一个完全空的环境（注意：里面没有安装pip，使用pip会安装到base环境！）; (2)把base环境完整复制过来，包含了常用的包如pip，numpy和已经在anaconda启动页安装的Jupyter notebook等; (3) 建立一个非空环境，包含了对应的python版本和pip。(4) make an exact copy of an environment by creating a clone of it.
+
+建议使用(2,3 or 4）！
 ```
 conda create --name my_env
 conda create --name my_env anaconda
 conda create --name my_env python=3.7
+conda create --name new_env --clone exist_env
 ```
 
 **4. Create an env for PyTorch-GPU (win10)**  
