@@ -11,7 +11,7 @@
 <li><a href="#GitHub-tutorial-projects">GitHub tutorial projects</a></li>
 <li><a href="#Blogs-and-manuals">Blogs and manuals</a></li>
 <li><a href="#Books">Books</a></li>
-<li><a href="#Get-started-a-dev-environment"> Get started a dev environment (anaconda + VS code)</a></li>
+<li><a href="#Get-started-a-dev-environment-(anaconda-+-VS-code)"> Get started a dev environment</a></li>
 </ul>
 
 ## Open course
