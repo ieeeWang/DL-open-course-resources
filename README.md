@@ -91,12 +91,12 @@ pip install numpy==1.93
 
 **Note: pip不一定作用在当前环境!** 
 
-首先check用的是本环境的pip，这样pip install的包会安装到到当前环境中（base环境otherwise)，可能会产生版本冲突问题!
-在当前环境下，用下面bash命令check要用的pip 在哪个环境下面：
+首先check用的是本环境的pip，这样pip install的包会安装到到当前环境中（base环境otherwise).
+在当前环境下，用下面bash命令check要用的pip 属于哪个环境：
 ```
 which -a pip 
 ```
-做一个小实验验证pip install可能产生的问题: 在当前env下，pip install (不太常用的）包（folium）在本env中（而不是base环境中）.  'conda list' (1st below) 中，pip安装的包后面有标注pypi。退出当前env，回到base环境， Again, 'conda list' (2nd below) 中不会出现folium. 否则，是误用了base环境下的pip，所以包被安装到base环境中(conflict!).
+做一个小实验验证pip install可能产生的问题: 在当前env下，pip install (不太常用的包）'folium'在本env中（而不是base环境中）.  'conda list' (1st below) 中，可以看到'folium' (pip安装的包后面有标注pypi)。回到base环境， Again, 'conda list' (2nd below) 不会出现folium. 否则，是误用了base环境下的pip，所以包被安装到base环境中(污染base环境).
 ```
 conda create --name my_env python=3.7
 pip install folium # package visualizing geospatial data
