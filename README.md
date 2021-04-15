@@ -108,16 +108,15 @@ conda remove -n my_env --all # Delete an environment
 ```
 
 
-**2. Can't execute 'conda activate' in bash terminal of VS code (win10)** 
-
-The easist solution (restart termininal not needed) is to run the first line below before 'conda activate ...'
+**2. Can't execute 'conda activate' in bash terminal of VS code (win10)**  
+The easist solution (restart terminal not needed) is to run the first line below (only once) before 'conda activate ...'. Linux systems will not have this problem.
 ```
 eval "$(conda shell.bash hook)"
 conda activate my_env
 ``` 
 
-**3. Create an env for tf2.2-GPU (win10)**  
-tf 2.2 requres python 3.5-3.8, CUDA 10.1, cuDNN 7.6. More [CUDA version infor](https://www.tensorflow.org/install/source#tested_build_configurations).  tf2.3 and higher do not work with my CUDA. Somehow only py3.7 (not higher) works well with tf2.2-GPU. 
+**3. Create an env for tensorflow-GPU (win10)**  
+The version of tf2.x is determined by versions of CUDA and cuDNN (e.g., CUDA 10.1, cuDNN 7.6 in my case). See more tf2.x versions and corresponding [CUDA version infor](https://www.tensorflow.org/install/source#tested_build_configurations). Somehow only py3.7 (not higher) and tf2.2 (not higher) work with my GPU (Quadro M1200). 
 ```
 conda create -n py37_tf2.2 python=3.7 anaconda # 'anaconda' enables a full copy from the base env
 conda activate py37_tf2.2
@@ -156,4 +155,4 @@ for windows, 为了方便使用nvidia-smi.exe, 打开环境变量，在path（to
 ```
 nvidia-smi
 ```
-Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpus).
+Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpus), e.g., Quadro M1200 = 5.0.
