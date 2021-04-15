@@ -109,6 +109,7 @@ conda remove -n my_env --all # Delete an environment
 
 
 **2. Can't execute 'conda activate' in bash terminal of VS code (win10)** 
+
 The easist solution (restart termininal not needed) is to run the first line below before 'conda activate ...'
 ```
 eval "$(conda shell.bash hook)"
