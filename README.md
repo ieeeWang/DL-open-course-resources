@@ -11,7 +11,7 @@
 <li><a href="#GitHub-tutorial-projects">GitHub tutorial projects</a></li>
 <li><a href="#Blogs-and-manuals">Blogs and manuals</a></li>
 <li><a href="#Books">Books</a></li>
-<li><a href="#Get-started-a-dev-environment-(anaconda-+-VS-code)"> Get started a dev environment</a></li>
+<li><a href="#Get-started-a-dev-environment">Get started a dev environment</a></li>
 </ul>
 
 ## Open course
@@ -71,9 +71,9 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 
 
 
-## Get started a dev environment (anaconda + VS code)
+## Get started a dev environment
 
-**1. Create new env in anaconda (win10)**  
+**1. Create a new dev env (win10+anaconda+VS code)**  
 by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
 ```
 conda info -e # check current env
@@ -144,7 +144,7 @@ import torch
 torch.cuda.is_available()
 ```
 
-**5. Check GPU (NVIDIA) status (windows)**   
+**5. Check GPU (NVIDIA) status (win10)**   
 for windows, 为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
