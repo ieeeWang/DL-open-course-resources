@@ -144,9 +144,9 @@ import torch
 torch.cuda.is_available()
 ```
 
-**5. Check GPU status (windows)**   
+**5. Check GPU (NVIDIA) status (windows)**   
 for windows, 为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
 ```
-[Here](https://developer.nvidia.com/cuda-gpus) shows your GPU Compute Capability.
+Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpus).
