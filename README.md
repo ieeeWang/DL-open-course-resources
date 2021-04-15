@@ -11,7 +11,7 @@
 <li><a href="#GitHub-tutorial-projects">GitHub tutorial projects</a></li>
 <li><a href="#Blogs-and-manuals">Blogs and manuals</a></li>
 <li><a href="#Books">Books</a></li>
-<li><a href="#get-started-a-dev-environment">get started a dev environment</a></li>
+<li><a href="#Get-started-a-dev-environment">Get started a dev environment</a></li>
 </ul>
 
 ## Open course
@@ -71,7 +71,7 @@ More (100+) free **AI books** [online](https://www.theinsaneapp.com/2020/12/down
 
 
 
-## get started a dev environment
+## Get started a dev environment (anaconda + VS code)
 
 **1. Create new env in anaconda (win10)**  
 by following commands in 'anaconda prompt' or 'cmd' or 'VS code terminal (bash)':
