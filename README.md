@@ -132,13 +132,14 @@ print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GP
 (3) 建立一个非空环境，包含了对应的python版本和pip; 
 (4) make an exact copy of an environment by creating a clone of it.
 
-建议使用(2,3 or 4）
 ```
 conda create --name my_env # (1)
 conda create --name my_env anaconda # (2)
 conda create --name my_env python=3.7 # (3)
 conda create --name new_env --clone exist_env # (4)
 ```
+建议使用(2,3 or 4）
+
 
 **4. Create an env for PyTorch-GPU (win10)**  
 安装GPU版本，对应CUDA 10.1. The 2nd command is generated from [PyTorch page](https://pytorch.org/get-started/locally/)  
