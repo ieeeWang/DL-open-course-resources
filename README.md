@@ -124,7 +124,7 @@ import tensorflow as tf
 print("Num GPUs Available:",len(tf.config.experimental.list_physical_devices('GPU')))
 ```
 
-以下命令区别是：(1)建立一个完全空的环境（注意：里面没有安装pip，使用pip会安装到base环境！）; (2)把base环境完整复制过来，包含了常用的包如pip，numpy和已经在anaconda启动页安装的Jupyter notebook等; (3) 建立一个非空环境，包含了对应的python版本和pip。(4) make an exact copy of an environment by creating a clone of it.
+以下命令区别是：(1)建立一个完全空的环境（注意：里面没有安装pip，使用pip会安装到base环境！）; (2)把base环境完整复制过来，包含了常用的包如pip，numpy和已经在anaconda启动页安装的Jupyter notebook等; (3) 建立一个非空环境，包含了对应的python版本和pip; (4) make an exact copy of an environment by creating a clone of it.
 
 建议使用(2,3 or 4）！
 ```
@@ -145,7 +145,8 @@ torch.cuda.is_available()
 ```
 
 **5. Check GPU status (windows)**   
-为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
+for windows, 为了方便使用nvidia-smi.exe, 打开环境变量，在path（top panel – user variables）里添加：C:\Program Files\NVIDIA Corporation\NVSMI
 ```
 nvidia-smi
 ```
+[Here](https://developer.nvidia.com/cuda-gpus) shows your GPU Compute Capability.
