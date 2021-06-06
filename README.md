@@ -183,7 +183,7 @@ git clone xxx (the address copied from your github repo on GitHub website)
 ```
 
 **Upload all folders and files from local**  
-Now, in a local end, we can copy all folders/files that need to be uploaded into xxx folder. Then, upload them to the target repo by:  
+First, in a local end, we copy all folders/files that need to be uploaded into xxx folder. Second, upload them to the target repo by:  
 ```
 cd xxx
 git add . # . represents all files
@@ -191,7 +191,7 @@ git commit -m "update all"
 git push
 ```
 
-**Update existing file**    
+**Update an existing file**    
 ```    
 git add README.md
 git commit -m "update readme"
