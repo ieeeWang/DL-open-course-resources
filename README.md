@@ -179,13 +179,13 @@ The easiest way to create a new repo is to click some buttons on the GitHub webs
 
 To build a "connection" between the local folder and remote repo, we open the terminal of VS code, type:
 ```
-git clone xxx (the address copied from your github repo on GitHub website)
+git clone xxx(the address copied from your github repo on GitHub website)
 ```
 
 **Upload all folders and files from local**  
-First, in a local end, we copy all folders/files that need to be uploaded into xxx folder. Second, upload them to the target repo by:  
+First, in a local end, we copy all folders/files that need to be uploaded into xxx folder. Second, upload them to the target repo (remote) by:  
 ```
-cd xxx
+cd xxx (target folder)
 git add . # . represents all files
 git commit -m "update all"
 git push
