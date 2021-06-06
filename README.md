@@ -12,6 +12,7 @@
 <li><a href="#Blogs-and-manuals">Blogs and manuals</a></li>
 <li><a href="#Books">Books</a></li>
 <li><a href="#Get-started-a-dev-environment">Get started a dev environment</a></li>
+<li><a href="#Use-git-and-GitHub">Use git and GitHub</a></li>
 </ul>
 
 ## Open course
@@ -157,3 +158,41 @@ for windows, 为了方便使用nvidia-smi.exe, 打开环境变量，在path（to
 nvidia-smi
 ```
 Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpus), e.g., Quadro M1200 = 5.0.
+
+
+
+
+
+## Use git and GitHub
+
+**for 1ST time to use**  
+Configure user information for all local repositories，only needed for 1st time use.
+Sets the name and email you want attached to your commit transactions
+```
+git config --global user.name "your user name"
+git config --global user.email "your.user.name@example.com"
+$ git config --global color.ui auto # Enables helpful colorization
+```
+
+**Create a new repository**
+The easiest way to create a new repo is to use click some buttons on the GitHub website, refer to [here](https://docs.github.com/en/github/getting-started-with-github/quickstart/create-a-repo).
+
+To build a connection between the local folder and remote repo, we open the terminal of VS code, type
+```
+git clone xxx (the address copied from your github repo)
+```
+
+**update all folders and files from local**
+Now, we can copy all folders/files that need to be uploaded into xxx folder
+```
+cd xxx
+git add .
+git commit -m "update all"
+git push
+```
+
+**update existing file**
+git add readme
+git commit -m "update readme"
+git push
+```
