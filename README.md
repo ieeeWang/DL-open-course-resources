@@ -166,12 +166,12 @@ Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpu
 ## Use git and GitHub
 
 **For 1ST time user**  
-Configure user information for all local repositories，only needed for 1st time use.
-Sets the name and email you want attached to your commit transactions
+Configure user information for all local repositories，only needed for 1st time use.    
+Sets the name and email you want attached to your commit transactions as follows.
 ```
 git config --global user.name "your user name"
 git config --global user.email "your.user.name@example.com"
-$ git config --global color.ui auto # Enables helpful colorization
+git config --global color.ui auto # Enables helpful colorization
 ```
 
 **Create a new repository**  
