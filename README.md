@@ -177,13 +177,13 @@ git config --global color.ui auto # Enables helpful colorization
 **Create a new repository**  
 The easiest way to create a new repo is to click some buttons on the GitHub website, refer to [here](https://docs.github.com/en/github/getting-started-with-github/quickstart/create-a-repo).
 
-To build a "connection" between the local folder and remote repo, we open the terminal of VS code, type
+To build a "connection" between the local folder and remote repo, we open the terminal of VS code, type:
 ```
 git clone xxx (the address copied from your github repo on GitHub website)
 ```
 
 **Upload all folders and files from local**  
-Now, we can copy all folders/files that need to be uploaded into xxx folder
+Now, in a local end, we can copy all folders/files that need to be uploaded into xxx folder. Then, upload them to the target repo by:  
 ```
 cd xxx
 git add . # . represents all files
