@@ -166,7 +166,7 @@ Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpu
 ## Use git and GitHub
 
 **For first time user**  
-Configure user information for all local repositories，only needed once for 1st time use github repo.    
+Configure user information for all local repositories，only needed once for 1st time using github repo.    
 Sets the name and email you want attached to your commit transactions as follows.
 ```
 git config --global user.name "your user name"
@@ -177,7 +177,7 @@ git config --global color.ui auto # Enables helpful colorization
 **Create a new repository**  
 The easiest way to create a new repo is to click some buttons on the GitHub website, refer to [here](https://docs.github.com/en/github/getting-started-with-github/quickstart/create-a-repo).
 
-To build a connection between the local folder and remote repo, we open the terminal of VS code, type
+To build a "connection" between the local folder and remote repo, we open the terminal of VS code, type
 ```
 git clone xxx (the address copied from your github repo on GitHub website)
 ```
