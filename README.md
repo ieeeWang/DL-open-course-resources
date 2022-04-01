@@ -177,6 +177,7 @@ A spyder-kernels need to be installed for each new env, whereas installing spyde
 install a spyder-kernels in a terminal of current env.
 ``` 
 pip install spyder-kernels==5.1.5 
+pip install spyder # (not necessary)
 ```
 Here, 5.1.5 is the spyder version that you need (keep it same with the spyder in base). Otherwise,  errors raise when open spyder from a terminal under env. of no spyder. 
 
