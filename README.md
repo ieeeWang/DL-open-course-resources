@@ -163,7 +163,7 @@ Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpu
 
 ## Use Spyder under anaconda
 
-**Cannot update spyder=5.1.5 (from 4.x) on anaconda**    
+**Cannot update spyder=5.1.5 (from 4.x) on anaconda!**    
 ```    
 conda remove spyder
 conda remove python-language-server
@@ -172,12 +172,13 @@ conda install spyder=5.1.5
 ```
 The second or third commands (i.e. conda remove python-language-server or conda update anaconda) could give errors, but that's fine. Simply ignore them and continue with the other commands.
 
-**Spyder open error (update spyder kernels)**   
-A spyder-kernels need to be installed for each new env, in which you want to use from spyder(e.g., from spyder in base env)  
+**Spyder fails to open (missing spyder kernels)!**   
+A spyder-kernels need to be installed for each new env, whereas installing spyder is not necessary if you perfer to use, e.g., spyder in base env.  
+install a spyder-kernels in a terminal of current env.
 ``` 
 pip install spyder-kernels==5.1.5 
 ```
-5.1.5 is the spyder version that you need (keep it same with the spyder in base). Otherwise, raise error when open spyder from terminal where spyder is not installed. 
+Here, 5.1.5 is the spyder version that you need (keep it same with the spyder in base). Otherwise,  errors raise when open spyder from a terminal under env. of no spyder. 
 
 
 ## Use git and GitHub
