@@ -162,6 +162,16 @@ Check your [NVIDIA GPU Compute Capability](https://developer.nvidia.com/cuda-gpu
 
 
 
+**6. Cannot update spyder=5.1.5 (from 4.x) on anaconda**    
+```    
+conda remove spyder
+conda remove python-language-server
+conda update anaconda
+conda install spyder=5.1.5
+```
+The second or third commands (i.e. conda remove python-language-server or conda update anaconda) could give errors, but that's fine. Simply ignore them and continue with the other commands.
+
+
 
 ## Use git and GitHub
 
@@ -198,12 +208,3 @@ git commit -m "update readme"
 git push
 ```
 
-
-**cannot update spyder=5.1.5 on anaconda**    
-```    
-conda remove spyder
-conda remove python-language-server
-conda update anaconda
-conda install spyder=5.1.5
-```
-The second or third commands (i.e. conda remove python-language-server or conda update anaconda) could give errors, but that's fine. Simply ignore them and continue with the other commands.
